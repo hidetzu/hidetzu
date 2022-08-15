@@ -1,10 +1,9 @@
-
-[![Github](https://img.shields.io/github/followers/hidetzu?label=Follow&style=social)](https://github.com/hidetzu)
-
 ### Hey 👋, I'm hidetzu
 - 🔭 I’m working as a Software Engineer
 - ❤ I love Open Source. I love [Vim](https://www.vim.org/) and [Go](https://golang.org).
 - :bowtie: I am a Full Stack Developer from 🇯🇵
+
+[![Github](https://img.shields.io/github/followers/hidetzu?label=Follow&style=social)](https://github.com/hidetzu)
 
 
 ---
