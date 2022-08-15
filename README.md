@@ -34,4 +34,3 @@
 <img src="https://github.com/devicons/devicon/blob/master/icons/kubernetes/kubernetes-plain-wordmark.svg" title="kubernetes" **alt="kubernetes" width="35" height="35"/>&nbsp;
   
 </p>
-
