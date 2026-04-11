@@ -1,71 +1,108 @@
-# Hi, I'm hidetzu 👋
+## 👋 Hi, I'm hidetzu
 
-I build **AI-native developer tools** for reproducible software development.
+Building **Prism** — a review context compiler for AI.
 
-Focused on **AI-powered PR review and API testing workflows**.
-
----
-
-## 🚀 Key Projects
-
-### 🧠 ccpr — AI-ready PR review tool
-
-Turn pull requests into **structured, AI-readable context** for code review.
-
-→ Enables reproducible AI review workflows (Claude Code)
+> AI review quality does not start with the model.  
+> It starts with review design.
 
 ---
 
-### 🧪 AI API Testing Tool (WIP)
+## 🔷 What is Prism?
 
-Generate **testable, executable test cases** from OpenAPI specs.
+**Prism** decomposes pull requests into structured context so that AI can review them consistently and reliably.
 
-→ OpenAPI → Spec → AI-generated tests → CLI execution
+Pull Request → Structured Context → Stable AI Review
 
----
+Instead of asking:
+- Why is AI review inconsistent?
 
-## 🧭 What I’m building
-
-I design **developer workflows in the AI era**:
-
-* PR → structured context → AI review
-* Spec → AI-generated tests
-* Code → reproducible systems
+Prism focuses on:
+- What should we feed into AI to make reviews stable?
 
 ---
 
-## 🔑 Philosophy
+## 🧠 Philosophy
 
-> Design systems where AI behaves correctly.
+Most tools try to make AI smarter.
 
-* Structure before implementation
-* Specs over ad-hoc code
-* Reproducibility over intuition
+Prism takes a different approach:
 
----
+Make the input better, not the model.
 
-## 🏗 Focus
+- Define what to review  
+- Define how deep to review  
+- Define what context to include  
 
-* AI-driven development workflows (Claude Code / spec-driven)
-* CLI tools for automation and CI
-* Human × AI collaboration in software engineering
+Prism turns these into a reproducible system.
 
 ---
 
-## ✍️ Writing
+## ⚙️ Core Projects
 
-I write about:
+### 🔹 Prism (Main)
+- Review Context Compiler
+- PR → structured JSON / prompt
+- Change type / risk / review axes analysis
+- Multi-mode review (light / detailed / cross)
 
-* AI-driven development (Claude Code / spec-driven)
-* Voice AI pipelines (Whisper / VAD / LLM)
-* Reproducible software architecture
-
-👉 https://zenn.dev/hidetzu
+👉 https://github.com/hidetzu/prism
 
 ---
 
-## 🔭 Current Focus
+### 🔸 ccpr (Adapter)
+- AWS CodeCommit PR fetcher
+- Used as a provider for Prism
 
-* AI-native development workflows
-* API testing for AI-generated systems
-* End-to-end pipelines (Spec → Code → Test → Review)
+👉 https://github.com/hidetzu/ccpr
+
+---
+
+## 🚀 Vision
+
+AI-native development needs a missing layer:
+
+Code → PR → ❌ (missing layer) → AI → Review
+
+Prism fills that gap:
+
+Code → PR → Prism → AI → Stable Review
+
+---
+
+## 🧩 What I'm building
+
+- CLI for developers  
+- API (Fly.io / Cloudflare)  
+- GitHub Actions integration  
+- Review Policy as Code  
+- AI review evaluation pipeline  
+
+---
+
+## 📌 Focus Areas
+
+- AI-assisted development workflows  
+- Review system design  
+- Context engineering for LLMs  
+- Developer tooling (CLI-first)  
+
+---
+
+## 📝 Writing
+
+- https://zenn.dev/hidetzu
+
+---
+
+## 🤝 Let's connect
+
+Interested in:
+- AI + Dev workflows  
+- OSS collaboration  
+- Review automation systems  
+
+---
+
+## ⚡ Tagline
+
+Stop prompting. Start structuring.
