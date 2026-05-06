@@ -55,6 +55,12 @@ Prism turns these into a reproducible system.
 
 👉 https://github.com/hidetzu/ccpr
 
+### 🔹 zemo (Personal Knowledge)
+- Minimalist Git-based notebook for developers
+- Single binary (Zig) with auto-sync and AI-friendly dump command
+- Turn your daily journals into structured context for AI
+👉 https://github.com/hidetzu/zemo
+
 ---
 
 ## 🚀 Vision
