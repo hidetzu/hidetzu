@@ -1,13 +1,5 @@
 <div align="center">
 
-```
- _     _     _      _
-| |__ (_) __| | ___| |_ _____   _
-| '_ \| |/ _` |/ _ \ __|_  / | | |
-| | | | | (_| |  __/ |_ / /| |_| |
-|_| |_|_|\__,_|\___|\__/___|\__,_|
-```
-
 ### 👋 Hi, I'm hidetzu
 
 **`> Decoding the missing layer between PRs and AI reviews`**
